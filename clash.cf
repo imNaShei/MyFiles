@@ -15,7 +15,7 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 那谁-CF, server: 172.64.98.253, port: 80, client-fingerprint: randomized, type: vless, uuid: e95d24ab-c5c2-44e1-9ca7-cba735e26487, tls: false, tfo: false, servername: vless.im-nashei.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.im-nashei.workers.dev}}}
+  - {name: 那谁-CF, server: 172.64.98.253, port: 80, client-fingerprint: randomized, type: vless, uuid: 00000000-0000-4444-8888-000000000000, tls: false, tfo: false, servername: vless.im-nashei.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: vless.im-nashei.workers.dev}}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
